@@ -19,5 +19,6 @@ from ProyectoApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('empleados/',views.employeeData)
+    path('empleados/',views.employeeData),
+    path('', views.UserRegistrationView)
 ]
